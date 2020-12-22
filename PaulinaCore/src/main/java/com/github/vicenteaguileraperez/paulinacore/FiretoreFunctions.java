@@ -16,7 +16,7 @@ import java.util.Map;
  * Date December 18th, 2020
  */
 
-public class FirebaseFunctions
+public class FiretoreFunctions
 {
     private Something something;
 
