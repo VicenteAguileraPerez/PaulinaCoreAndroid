@@ -1,5 +1,7 @@
 package com.github.vicenteaguileraperez.paulinacore;
 
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 
 import com.github.vicenteaguileraperez.paulinacore.enums.Options;
@@ -41,6 +43,7 @@ public class FiretoreFunctions
                 @Override
                 public void onFailure(@NonNull Exception e) {
                     something.status(Options.ADD,false);
+                    Log.e("err",e.getMessage());
                 }
             });
     }
